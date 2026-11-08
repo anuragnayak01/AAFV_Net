@@ -1,0 +1,40 @@
+{
+ "args": {
+  "name": "siamese_vit",
+  "arch": "vit_base_patch16_224.augreg_in21k_ft_in1k",
+  "img": 224,
+  "p5q": "artifacts/p5q",
+  "out": "artifacts/baselines",
+  "crops": "/dev/shm/aafv/crops",
+  "lr": 2e-05,
+  "epochs": 3,
+  "patience": 2,
+  "bs": 64,
+  "seed": 42,
+  "pretrained": 1,
+  "limit_pairs": 0,
+  "extra": "artifacts/pairs_fg/pairs_fgnet.csv",
+  "load": 0
+ },
+ "log": [
+  {
+   "epoch": 0,
+   "train_loss": 0.1337171153317296,
+   "val_logloss": 0.18466040873012074,
+   "seconds": 349.6913216114044
+  },
+  {
+   "epoch": 1,
+   "train_loss": 0.041624252562948647,
+   "val_logloss": 0.15933932997555744,
+   "seconds": 436.6811149120331
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.022650621049817014,
+   "val_logloss": 0.128487753109924,
+   "seconds": 436.692834854126
+  }
+ ],
+ "best_val_logloss": 0.128487753109924
+}

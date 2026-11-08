@@ -1,0 +1,57 @@
+{
+ "args": {
+  "name": "siamese_cnn",
+  "arch": "resnet18",
+  "img": 128,
+  "p5q": "artifacts/p5q",
+  "out": "artifacts/baselines",
+  "crops": "/dev/shm/aafv/crops",
+  "lr": 0.0003,
+  "epochs": 6,
+  "patience": 2,
+  "bs": 128,
+  "seed": 42,
+  "pretrained": 1,
+  "limit_pairs": 0,
+  "extra": "artifacts/pairs_fg/pairs_fgnet.csv"
+ },
+ "log": [
+  {
+   "epoch": 0,
+   "train_loss": 0.2170119624580824,
+   "val_logloss": 0.3326726389518611,
+   "seconds": 18.38666844367981
+  },
+  {
+   "epoch": 1,
+   "train_loss": 0.12844588737996165,
+   "val_logloss": 0.2790341535632424,
+   "seconds": 20.72989821434021
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.08361483931655941,
+   "val_logloss": 0.2116776089247901,
+   "seconds": 20.877117156982422
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.05798453796945275,
+   "val_logloss": 0.2048826000267599,
+   "seconds": 21.230204105377197
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.04236357833813921,
+   "val_logloss": 0.1949737319097741,
+   "seconds": 20.975459814071655
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.03333404303439428,
+   "val_logloss": 0.2240399355880211,
+   "seconds": 21.008007049560547
+  }
+ ],
+ "best_val_logloss": 0.1949737319097741
+}

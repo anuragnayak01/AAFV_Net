@@ -1,0 +1,15 @@
+SUMMARY (calibration split, development numbers)
+variants: 26
+
+## `full` vs `arcface_only`
+better: 3 | no clear difference: 0 | worse: 15
+## `full` vs `direct5_logreg`
+better: 3 | no clear difference: 0 | worse: 15
+## `full` vs `direct_only_mlp`
+better: 6 | no clear difference: 10 | worse: 2
+## `full` vs `baseline_siamese_cnn`
+better: 9 | no clear difference: 3 | worse: 6
+## `full` vs `baseline_siamese_vit`
+better: 9 | no clear difference: 3 | worse: 6
+## `full` vs `baseline_vlm`
+better: 9 | no clear difference: 3 | worse: 6

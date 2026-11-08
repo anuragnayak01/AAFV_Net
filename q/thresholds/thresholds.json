@@ -1,0 +1,23 @@
+{
+ "T_accept": 0.9565746784210205,
+ "T_reject": -0.0003849667846225202,
+ "Q_MIN": 0.29476277358200714,
+ "R_MIN_sam": 0.3944316089073179,
+ "RHO": 0.2,
+ "calibrator_kind": "platt",
+ "calibrator_file": "artifacts/q/models/calibrator.pkl",
+ "calibrator_sha256": "7ffbf09b750b5e5c3386c8eedeb9745faf785846004df80bbfa1b4ab79cbb7c7",
+ "model_sha256": {
+  "fusion_seed0.pt": "19a7e463f9abb977c3b6f86b9ac187a2d20fb88f88ec7afa24094e6dc5df5ee0",
+  "fusion_seed1.pt": "abdc195708beb333c9c9d49670b98b6ef632592e4edcea8b194efbd22692d23d",
+  "fusion_seed2.pt": "8b8c68c12c55ae66708f36dcce5337ae0d74f4734b56df7973ec7a3b59c310a0",
+  "fusion_seed3.pt": "84ec2c246193d441ba6aa8c194b4fe447317e8d883b4102306bc774b09ddda9f",
+  "fusion_seed4.pt": "e7cee4c8e2d154791f8f004b0e863fc6a0f7729d6b1a8cad73183544455771ba"
+ },
+ "config_hash": "0a4e1cc5c753",
+ "n_calibration_pairs": 338871,
+ "n_same": 23838,
+ "created_utc": "2026-11-05T21:41:35Z",
+ "looks_max": 2,
+ "stage": "A (SAM branch only, no FG-NET out-of-fold data)"
+}

@@ -1,0 +1,9 @@
+SUMMARY (calibration split, development numbers)
+variants: 23
+
+## `full` vs `arcface_only`
+better: 3 | no clear difference: 19 | worse: 14
+## `full` vs `direct5_logreg`
+better: 3 | no clear difference: 19 | worse: 14
+## `full` vs `direct_only_mlp`
+better: 13 | no clear difference: 21 | worse: 2

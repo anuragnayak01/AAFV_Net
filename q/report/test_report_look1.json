@@ -1,0 +1,44 @@
+{
+ "look": 1,
+ "alpha_per_look": 0.025,
+ "zones_by_set": {
+  "D_all_random": {
+   "reject": 0,
+   "review": 277822,
+   "accept": 0
+  },
+  "D_hard": {
+   "reject": 0,
+   "review": 35732,
+   "accept": 3
+  },
+  "D_random": {
+   "reject": 0,
+   "review": 1149,
+   "accept": 0
+  },
+  "same": {
+   "reject": 0,
+   "review": 4923,
+   "accept": 19382
+  }
+ },
+ "N_D_random": 1149,
+ "FA_random": 0,
+ "bound": 0.003205364828898327,
+ "FA_D_all_random": 0,
+ "FA_D_hard": 3,
+ "false_rejects": {},
+ "boot_FA_all_random_95": [
+  0.0,
+  0.0
+ ],
+ "boot_review_same_95": [
+  0.17922300964688007,
+  0.23286113997687746
+ ],
+ "boot_accept_same_95": [
+  0.7671388600231225,
+  0.8207769903531199
+ ]
+}
