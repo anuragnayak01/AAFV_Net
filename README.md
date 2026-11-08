@@ -2,7 +2,6 @@
 
 AAFV-Net decides whether two face photos taken years apart show the same person, and routes uncertain pairs to manual review instead of guessing. It is a **three-way decision framework** (auto-accept / manual review / auto-reject) whose accept threshold is frozen on a calibration split so that the false-accept rate on different people is *measured and bounded*, not assumed. It is not a new face matcher: it is built on ArcFace and other scores, and it does not claim to beat ArcFace on overall accuracy.
 
-Status: research code and results, two test looks used (see `results/q/logs/test_access.log`). 
 ## What it does
 
 1. For each pair, the older and younger image are aged and de-aged to a 5-year grid with SAM, giving up to five scores (ArcFace, EfficientNet, VGG, LPIPS, SSIM) on the original pair and on the aged pairs.
