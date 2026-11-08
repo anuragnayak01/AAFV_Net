@@ -13,7 +13,6 @@ AAFV-Net is a three-way decision framework for verifying whether two face photog
 - [Installation](#installation)
 - [Usage](#usage)
 - [Reproducibility](#reproducibility)
-- [Citation](#citation)
 
 ## Method
 
@@ -98,11 +97,7 @@ Tests: `PYTHONPATH=src pytest tests/`.
 - Frozen thresholds: `results/q/thresholds/thresholds.json`, SHA-256 `4b7af9772d209ce6315d36f36df6b191728c830159f04355e7a2238fd9732cfe`.
 - The test split was opened twice; see `results/q/logs/test_access.log`.
 
-## Citation
 
-```bibtex
-@misc{aafvnet2026,
-  title  = {AAFV-Net: Age-Aware Face Verification with a Bounded False-Accept Rate},
   author = {Nayak, Anurag and Hira, Swati and others},
   year   = {2026},
   note   = {Manuscript in preparation}
