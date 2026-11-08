@@ -1,0 +1,23 @@
+# All DEFAULT unless noted; see 04_PIPELINE_SPEC.md section 12.
+SEED: 42
+A_MAX: 80
+GRID_STEP: 5
+K_MAX: 7
+CAP_SAME: 10
+DIFF_PER_SAME: 3
+K_HARD: 5
+RANDOM_DIFF_PAIRS: 300000   # stage A: reduced from 1,000,000 for compute time (recorded deviation)
+FG_NET_MAX_SHARE: 0.2
+TRAIN_VAL_FRACTION: 0.15
+P_MASK: 0.12
+MLP_SIZES: [32, 16]
+SEEDS: 5
+EPS_LIMIT: 8
+RHO_OPTIONS: [0.2, 0.35, 0.5]
+LOOKS_MAX: 2
+GAP_BIN_EDGES: [0, 5, 10, 15, 20, 30]
+# Filled by src/download_datasets.py (it only edits keys that already exist)
+MORPH_IMAGES_DIR: ""
+MORPH_INDEX_DIR: ""
+FGNET_IMAGES_DIR: ""
+BENCHMARK_DIR: ""
